@@ -1,0 +1,61 @@
+main {
+  margin: 25px 0;
+}
+
+h1 {
+  margin: 0 20px;
+}
+
+article {
+  margin: 50px 0 0 0;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid gray;
+  text-align: center;
+}
+
+th {
+  background-color: pink;
+  font-weight: bold;
+  border: 1px solid purple;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid pink;
+}
+
+.definedWord {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.definition {
+  font-style: italic;
+}
+
+.elementTag {
+  background-color: salmon;
+}
+
+.tableTitle {
+  text-align: center;
+}
+
+#HTML {
+  margin: 0 20px;
+  background-color: rgb(228, 232, 240);
+  padding: 1px 25px;
+}
+
+#CSS {
+  margin: 0 20px;
+  background-color: rgb(228, 232, 240);
+  padding: 1px 25px;
+}
+
+
