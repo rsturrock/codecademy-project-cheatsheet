@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <h1>Ryan's HTML and CSS Cheat Sheet</h1>
+    </header>
+    <main>
+      <section id="HTML">
+        <article class="theWhat">
+          <h2>Semantic HTML</h2>
+          <p><span class="definedWord">Semantic</span> - <span class="definition">"relating to meaning"</span></p>
+          <p>By using semantic html, we select elements based on their meaning, not how they are presented.</p>
+        </article>
+        <article class="theWhy">
+          <p><span class="definedWord">Why use Semantic HTML?</span></p>
+          <ul>
+            <li><p>accessbility</p></li>
+            <li><p>seo</p></li>
+            <li><p>easy to understand</p></li>
+          </ul>
+        </article>
+        <article class="theHow">
+          <h3 class="tableTitle">Examples of Semantic HTML and Their Uses</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Tag Name</th>
+                <th>Formatted Tag</th>
+                <th>Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>nav</td>
+                <td><span class="elementTag">&lt;nav&gt;</span></td>
+                <td>is used to define a block of navigation links such as menus and tables of content</td>
+              </tr>
+              <tr>
+                <td>main</td>
+                <td><span class="elementTag">&lt;main&gt;</span></td>
+                <td>used to encapsulate the dominant content</td>
+              </tr>
+              <tr>
+                <td>footer</td>
+                <td><span class="elementTag">&lt;footer&gt;</span></td>
+                <td>content at the bottom of the subject information</td>
+              </tr>
+              <tr>
+                <td>section</td>
+                <td><span class="elementTag">&lt;section&gt;</span></td>
+                <td>defines elements in a document; chapters, headings</td>
+              </tr>
+              <tr>
+                <td>article</td>
+                <td><span class="elementTag">&lt;article&gt;</span></td>
+                <td>holds content that make sense on its own</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+      <section id="CSS">
+        <article class="theWhat">
+          <h2>CSS Selectors</h2>
+          <p><span class="definedWord">CSS Selectors</span><span class="definition"> - define the elements to which a set of CSS rules apply.</span></p>
+          <p>By using CSS Selectors, we are able to select and apply styles to all of our elements without needing to manually style each individual element.</p>
+        </article>
+        <article class="theWhy">
+          <p><span class="definedWord">Why use CSS Selectors</span></p>
+          <ul>
+            <li><p>time efficient</p></li>
+            <li><p>best practices</p></li>
+            <li><p>easy to understand</p></li>
+          </ul>
+        </article>
+        <article class="theHow">
+          <h3 class="tableTitle">Examples of CSS Selectors and Their Uses</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Selector Name</th>
+                <th>Formatted Selector</th>
+                <th>Use</th>
+              </tr>
+            </thead>
+            <tbody>
+                <td>type</td>
+                <td><span class="elementTag">type</span></td>
+                <td>a selector is used to target the specific HTML elements to be styled by the declaration. type selector matches the type of element in the HTML document</td>
+              <tr>
+                <td>universal</td>
+                <td><span class="elementTag">*</span></td>
+                <td>selects all elements of any type. uses the * character</td>
+              </tr>
+              <tr>
+                <td>class</td>
+                <td><span class="elementTag">.</span></td>
+                <td>to select an HTML element by its class using CSS, a period (.) must be prepended to the class's name
+</td>
+              </tr>
+              <tr>
+                <td>id</td>
+                <td><span class="elementTag">#</span></td>
+                <td>selects an HTML element by id attribute selected by prepending with #</td>
+              </tr>
+              <tr>
+                <td>psuedo-class</td>
+                <td><span class="elementTag">:</span></td>
+                <td>can be attached to any selector. it is always written as a colon : followed by a name</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+    </main>
+</body>
+</html>
